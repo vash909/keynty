@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "431ac31e-71d2-4327-97a9-de415a92d53b")
+	(paper "A3")
+	(title_block
+		(title "keynty")
+		(date "2026-04-03")
+		(rev "0.0")
+		(company "XZ Group")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
