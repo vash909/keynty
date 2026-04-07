@@ -8951,7 +8951,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/175/1/ZXM61N02F.pdf"
 			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9194,7 +9194,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/6118/1/sj1_351xn.pdf"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9965,7 +9965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/6118/1/sj1_351xn.pdf"
 			(at 20.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10875,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ckswitches.com/media/1428/os.pdf"
 			(at 151.13 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://aatc.tw/mouser_2025/AI-12M5B1.pdf"
 			(at 163.195 88.9 90)
 			(hide yes)
 			(show_name no)
@@ -12645,7 +12645,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ckswitches.com/media/1428/os.pdf"
 			(at 252.73 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -13164,7 +13164,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/40/1/ptv09.pdf"
 			(at 165.1 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -14542,7 +14542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ckswitches.com/media/1428/os.pdf"
 			(at 259.08 144.78 0)
 			(hide yes)
 			(show_name no)
