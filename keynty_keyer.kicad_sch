@@ -3400,175 +3400,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack2_0_1"
-				(rectangle
-					(start -3.81 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -2.54 3.81)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5727,8 +5558,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BS170"
+		(symbol "Transistor_FET:BSS138"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -5747,7 +5579,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BS170"
+			(property "Value" "BSS138"
 				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5758,7 +5590,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5771,7 +5603,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 				(at 5.08 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5783,7 +5615,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5805,7 +5637,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5816,7 +5648,7 @@
 					)
 				)
 			)
-			(symbol "BS170_0_1"
+			(symbol "BSS138_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -5960,7 +5792,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -5983,11 +5815,11 @@
 					)
 				)
 			)
-			(symbol "BS170_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6002,10 +5834,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6021,9 +5853,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6521,6 +6353,12 @@
 		(uuid "4fd5abe8-c86e-47c6-a90f-78d23a599bef")
 	)
 	(junction
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b19d29c-a3b0-4ee8-84b0-e484cf0ebf98")
+	)
+	(junction
 		(at 165.1 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6537,12 +6375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83dacb08-40ca-4eb9-8a72-6ac6d6206130")
-	)
-	(junction
-		(at 158.75 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87cbc762-217b-44ae-a3c6-cfc7423458ba")
 	)
 	(junction
 		(at 58.42 22.86)
@@ -6573,6 +6405,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd2d6897-fad3-4b47-aaee-6660252640c3")
+	)
+	(junction
+		(at 205.74 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9c01032-96fb-4a96-a174-d36a9d966635")
 	)
 	(junction
 		(at 58.42 35.56)
@@ -6613,6 +6451,16 @@
 			(type default)
 		)
 		(uuid "0d9cf8b1-0a30-4d6a-a1c3-138e2ca40c2e")
+	)
+	(wire
+		(pts
+			(xy 205.74 91.44) (xy 205.74 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e405e78-54fe-4fe3-9338-a670c3d59581")
 	)
 	(wire
 		(pts
@@ -6683,16 +6531,6 @@
 			(type default)
 		)
 		(uuid "16bb419c-e962-4100-a694-ec17cdfa053b")
-	)
-	(wire
-		(pts
-			(xy 198.12 88.9) (xy 198.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17bf08f8-f9d7-4334-8b2d-d0f449bb22db")
 	)
 	(wire
 		(pts
@@ -6966,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 90.17) (xy 207.01 90.17)
+			(xy 198.12 88.9) (xy 207.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7213,16 +7051,6 @@
 			(type default)
 		)
 		(uuid "6f8a3170-b2fd-4418-891d-d93419591666")
-	)
-	(wire
-		(pts
-			(xy 198.12 92.71) (xy 198.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "706b1b3a-459f-4db0-86b0-ed96c1564792")
 	)
 	(wire
 		(pts
@@ -7666,7 +7494,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 92.71) (xy 198.12 92.71)
+			(xy 207.01 93.98) (xy 205.74 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7853,6 +7681,26 @@
 			(type default)
 		)
 		(uuid "e735c0e9-9840-40f6-95e4-40f28d93c79d")
+	)
+	(wire
+		(pts
+			(xy 207.01 91.44) (xy 205.74 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef5da04c-1083-41b7-805c-6e78cbad3afd")
+	)
+	(wire
+		(pts
+			(xy 205.74 93.98) (xy 198.12 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f146c984-9171-42f5-9542-da2d92cc2289")
 	)
 	(wire
 		(pts
@@ -8740,94 +8588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BS170")
-		(at 156.21 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16a0f291-2062-416d-b3a5-28928b11ad03")
-		(property "Reference" "Q1"
-			(at 162.56 100.3299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BS170"
-			(at 162.56 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 161.29 103.505 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 161.29 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 156.21 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "bd91bd88-d7af-4f53-b694-6c5923bd48b6")
-		)
-		(pin "1"
-			(uuid "f6f25abc-ae4d-408f-9753-5077180fa759")
-		)
-		(pin "3"
-			(uuid "a63dd915-8f8f-4938-8f7b-048f30313e4b")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:4011")
 		(at 234.95 52.07 0)
 		(mirror x)
@@ -9145,6 +8905,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 156.21 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "238de218-6cbb-4633-bd0b-43f6093024eb")
+		(property "Reference" "Q1"
+			(at 162.56 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZXM61N02FTC"
+			(at 162.56 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 161.29 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 161.29 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 156.21 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0f0cef9c-f7a1-4e4a-aef7-63eb30072a42")
+		)
+		(pin "3"
+			(uuid "d6c8c1c3-411c-44ea-83ec-f97b94cd5095")
+		)
+		(pin "1"
+			(uuid "db971146-634e-4667-a038-9b28256138c1")
+		)
+		(instances
+			(project "keynty_keyer"
+				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 269.24 86.36 0)
 		(unit 1)
@@ -9299,6 +9147,88 @@
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 212.09 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f336837-354a-488e-8dcc-3cf0be521615")
+		(property "Reference" "J4"
+			(at 213.995 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Key Input"
+			(at 213.995 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
+			(at 212.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 212.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "R"
+			(uuid "ab3dd082-85b0-4cab-aac1-89e2e155c1c6")
+		)
+		(pin "S"
+			(uuid "36361546-b925-4a9f-bfc1-660b1af8c567")
+		)
+		(pin "T"
+			(uuid "197a2675-9d26-4650-af5b-17d685c376f3")
+		)
+		(instances
+			(project "keynty_keyer"
+				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14292,85 +14222,6 @@
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack2")
-		(at 212.09 90.17 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eb88363a-e925-4083-978c-e41ef38f31e7")
-		(property "Reference" "J4"
-			(at 212.725 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keyed Output"
-			(at 212.725 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
-			(at 212.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 212.09 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "92c192e0-eb69-4312-8c2f-e2e0c467288f")
-		)
-		(pin "T"
-			(uuid "86408af8-a2e6-4518-a7d5-02fe169764ad")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "J4")
 					(unit 1)
 				)
 			)
