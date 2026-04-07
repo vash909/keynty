@@ -8072,7 +8072,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4081")
-		(at 143.51 173.99 180)
+		(at 143.51 173.99 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8082,7 +8082,7 @@
 		(dnp no)
 		(uuid "08a530fc-0865-4368-b355-fc5a497e9ad8")
 		(property "Reference" "U1"
-			(at 141.478 172.974 0)
+			(at 145.542 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8093,7 +8093,7 @@
 			)
 		)
 		(property "Value" "4081"
-			(at 140.97 175.006 0)
+			(at 146.05 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
