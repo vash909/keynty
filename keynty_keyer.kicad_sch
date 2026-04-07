@@ -6326,6 +6326,16 @@
 		)
 		(uuid "78f190b7-f9fa-4741-8b1c-aac7e82360e3")
 	)
+	(text "OUTPUT OR"
+		(exclude_from_sim no)
+		(at 114.046 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "977409b3-4669-4cbc-8dd7-599dd320a5dc")
+	)
 	(text "DASH GEN"
 		(exclude_from_sim no)
 		(at 224.028 28.956 0)
@@ -6369,7 +6379,7 @@
 	)
 	(text "SIDETONE"
 		(exclude_from_sim no)
-		(at 124.714 80.772 0)
+		(at 161.036 72.644 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6475,12 +6485,6 @@
 		(uuid "01e3be4a-390b-4ee1-a3d9-d7585535aa52")
 	)
 	(junction
-		(at 176.53 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03e16126-08ae-45a0-9f32-c8ac5be7f774")
-	)
-	(junction
 		(at 68.58 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6535,6 +6539,12 @@
 		(uuid "83dacb08-40ca-4eb9-8a72-6ac6d6206130")
 	)
 	(junction
+		(at 158.75 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87cbc762-217b-44ae-a3c6-cfc7423458ba")
+	)
+	(junction
 		(at 58.42 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6576,16 +6586,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 36.83) (xy 218.44 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0298a4d0-7d72-48bb-88ca-d8f644a8aff7")
-	)
-	(wire
-		(pts
 			(xy 67.31 41.91) (xy 72.39 41.91)
 		)
 		(stroke
@@ -6623,16 +6623,6 @@
 			(type default)
 		)
 		(uuid "0f81b9a7-c4b8-4d18-9cf2-ded646444e8f")
-	)
-	(wire
-		(pts
-			(xy 241.3 88.9) (xy 247.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f99720f-3082-47db-b856-589bf13c1f31")
 	)
 	(wire
 		(pts
@@ -6696,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 199.39 87.63)
+			(xy 198.12 88.9) (xy 198.12 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6706,7 +6696,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 161.29 88.9)
+			(xy 101.6 88.9) (xy 110.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6706,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 81.28) (xy 102.87 81.28)
+			(xy 142.24 82.55) (xy 146.05 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6836,23 +6826,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 161.29 83.82)
+			(xy 101.6 83.82) (xy 110.49 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2a07462e-03b4-4651-affd-1df358a4ef2e")
-	)
-	(wire
-		(pts
-			(xy 218.44 26.67) (xy 218.44 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2adbf32f-4aae-4014-bc37-ac10549bc44e")
 	)
 	(wire
 		(pts
@@ -6926,7 +6906,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 87.63) (xy 115.57 87.63)
+			(xy 161.29 88.9) (xy 158.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6976,7 +6956,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 91.44) (xy 181.61 91.44)
+			(xy 182.88 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6986,7 +6966,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 208.28 87.63)
+			(xy 198.12 90.17) (xy 207.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6996,13 +6976,23 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 241.3 88.9)
+			(xy 59.69 71.12) (xy 59.69 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44ac61d0-9045-4d5e-bd8e-0e354a663708")
+		(uuid "463e898b-9b9d-4b67-a3f2-a035c8e109c8")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b8885c-dccd-44f8-b415-d6180a9e86d9")
 	)
 	(wire
 		(pts
@@ -7033,16 +7023,6 @@
 			(type default)
 		)
 		(uuid "520e76b7-44fc-4e6f-84a7-3183b3cbd11b")
-	)
-	(wire
-		(pts
-			(xy 176.53 85.09) (xy 176.53 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533e0651-05e1-464a-b9d7-e40a1ec00bba")
 	)
 	(wire
 		(pts
@@ -7086,17 +7066,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 86.36) (xy 184.15 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "562ddf9f-becf-4117-926e-3d036794a253")
-	)
-	(wire
-		(pts
-			(xy 99.06 71.12) (xy 99.06 81.28)
+			(xy 142.24 72.39) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7156,13 +7126,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 91.44) (xy 181.61 93.98)
+			(xy 180.34 93.98) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "630bc964-e50e-4e21-a5d8-4a6d81e3423f")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 180.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635bd5b3-c936-4519-8a3d-35bbba1c0ec8")
 	)
 	(wire
 		(pts
@@ -7176,13 +7156,13 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 181.61 102.87)
+			(xy 218.44 26.67) (xy 218.44 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68acb37c-81a0-4226-91c9-53d016ed41d8")
+		(uuid "689fd8fb-dabf-4684-a7fd-04341e93dcac")
 	)
 	(wire
 		(pts
@@ -7236,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 91.44)
+			(xy 198.12 92.71) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7246,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 85.09) (xy 176.53 85.09)
+			(xy 130.81 86.36) (xy 125.73 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7256,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 92.71) (xy 118.11 92.71)
+			(xy 158.75 93.98) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7366,6 +7346,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 88.9) (xy 247.65 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899cff1f-e0da-42f6-92e2-eb306172abd6")
+	)
+	(wire
+		(pts
 			(xy 48.26 68.58) (xy 68.58 68.58)
 		)
 		(stroke
@@ -7396,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 81.28) (xy 115.57 81.28)
+			(xy 156.21 82.55) (xy 158.75 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7436,7 +7426,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 115.57 92.71)
+			(xy 158.75 96.52) (xy 158.75 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7466,6 +7456,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 88.9) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ee8e23-1422-4523-8898-d57eeabb4209")
+	)
+	(wire
+		(pts
 			(xy 58.42 30.48) (xy 58.42 35.56)
 		)
 		(stroke
@@ -7486,17 +7486,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 59.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa41c01-2eb9-48df-812c-2176c49e7688")
-	)
-	(wire
-		(pts
-			(xy 115.57 81.28) (xy 115.57 87.63)
+			(xy 158.75 82.55) (xy 158.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7553,6 +7543,16 @@
 			(type default)
 		)
 		(uuid "ba937bbf-dde8-474e-8133-15a745862083")
+	)
+	(wire
+		(pts
+			(xy 59.69 96.52) (xy 59.69 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf604a43-d4d7-4c18-a029-3fc6dc16b3b0")
 	)
 	(wire
 		(pts
@@ -7666,7 +7666,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 90.17) (xy 199.39 90.17)
+			(xy 207.01 92.71) (xy 198.12 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7716,7 +7716,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 107.95 100.33)
+			(xy 146.05 101.6) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7776,7 +7776,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 54.61) (xy 218.44 59.69)
+			(xy 218.44 54.61) (xy 218.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7843,6 +7843,16 @@
 			(type default)
 		)
 		(uuid "e66fc42b-1428-4882-bb69-76b55a63628f")
+	)
+	(wire
+		(pts
+			(xy 158.75 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e735c0e9-9840-40f6-95e4-40f28d93c79d")
 	)
 	(wire
 		(pts
@@ -7955,7 +7965,7 @@
 		(uuid "369fa1c3-92f6-4063-89cb-a60dc3a1ab83")
 	)
 	(label "~{DASHES}"
-		(at 152.4 83.82 0)
+		(at 101.6 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7965,7 +7975,7 @@
 		(uuid "3c6d4468-9913-4b38-971c-7588e4c1bec2")
 	)
 	(label "~{DOTS}"
-		(at 152.4 88.9 0)
+		(at 101.6 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7973,6 +7983,16 @@
 			(justify left bottom)
 		)
 		(uuid "4bb896eb-de3a-43be-a36f-cedd505cd4dc")
+	)
+	(label "MODE"
+		(at 240.03 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "554bcabd-c443-40d7-bd4f-6584811e9483")
 	)
 	(label "DASH+DOT"
 		(at 123.19 35.56 180)
@@ -8005,7 +8025,7 @@
 		(uuid "7739df82-aaf6-4b1f-a641-c0d715a49aa2")
 	)
 	(label "OUT"
-		(at 102.87 100.33 0)
+		(at 146.05 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8025,7 +8045,7 @@
 		(uuid "7f54b5b5-908b-4c3e-aa4b-10b25f352479")
 	)
 	(label "OUT"
-		(at 180.34 85.09 180)
+		(at 130.81 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8073,16 +8093,6 @@
 			(justify left bottom)
 		)
 		(uuid "c31c09ce-0fb5-4b5f-a4bb-e82c45dbbd49")
-	)
-	(label "MODE"
-		(at 269.24 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1e99989-29ae-42dc-ab80-e48f9e9af06d")
 	)
 	(label "DASH+DOT"
 		(at 128.27 46.99 0)
@@ -8223,7 +8233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a530fc-0865-4368-b355-fc5a497e9ad8")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 141.478 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8245,7 +8255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 143.51 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8323,7 +8333,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -8419,7 +8429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f48c9bc-ce08-42a0-a33a-92eea69b7393")
-		(property "Reference" "C?"
+		(property "Reference" "C8"
 			(at 199.39 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8441,7 +8451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8483,7 +8493,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "C?")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8500,7 +8510,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "102119ec-bc77-42a6-bd1b-291093ecaa5b")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 166.878 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8522,7 +8532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 168.91 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8600,7 +8610,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U4")
 					(unit 5)
 				)
 			)
@@ -8617,7 +8627,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1403809e-49f3-43b8-a25d-016868a04758")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 128.778 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8639,7 +8649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 130.81 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8723,7 +8733,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U3")
 					(unit 3)
 				)
 			)
@@ -8731,7 +8741,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BS170")
-		(at 113.03 100.33 0)
+		(at 156.21 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8741,8 +8751,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a0f291-2062-416d-b3a5-28928b11ad03")
-		(property "Reference" "Q?"
-			(at 119.38 99.0599 0)
+		(property "Reference" "Q1"
+			(at 162.56 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8753,7 +8763,7 @@
 			)
 		)
 		(property "Value" "BS170"
-			(at 119.38 101.5999 0)
+			(at 162.56 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8763,8 +8773,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 118.11 102.235 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 161.29 103.505 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8777,7 +8787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BS170-D.PDF"
-			(at 118.11 104.14 0)
+			(at 161.29 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +8799,7 @@
 			)
 		)
 		(property "Description" "0.5A Id, 60V Vds, N-Channel MOSFET, TO-92"
-			(at 113.03 100.33 0)
+			(at 156.21 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8811,7 +8821,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8821,7 +8831,7 @@
 		(lib_id "4xxx:4011")
 		(at 234.95 52.07 0)
 		(mirror x)
-		(unit 4)
+		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8829,7 +8839,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e0143cd-e4f3-4855-9a98-b08c48b5fe9d")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 234.188 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8849,7 +8859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8927,8 +8937,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 4)
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -9014,7 +9024,7 @@
 	(symbol
 		(lib_id "4xxx:4027")
 		(at 59.69 88.9 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9022,7 +9032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "220512f3-882d-4145-bfa2-dc9fe536c750")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 52.578 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +9054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9128,15 +9138,15 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 2)
+					(reference "U3")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 241.3 83.82 0)
+		(at 269.24 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9147,7 +9157,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d7ba2d2-a299-481d-a224-0014eb30ac0c")
 		(property "Reference" "#PWR017"
-			(at 241.3 87.63 0)
+			(at 269.24 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9158,7 +9168,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 241.3 78.74 0)
+			(at 269.24 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9168,7 +9178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 83.82 0)
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,7 +9189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 83.82 0)
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9190,7 +9200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 241.3 83.82 0)
+			(at 269.24 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9223,7 +9233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2e8c9dcf-559f-468c-8387-f2eda956eda9")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 77.47 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9243,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9288,7 +9298,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9484,7 +9494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 83.5152 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9544,7 +9554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f8de5f-a49c-4c8f-b675-9597fd45b590")
-		(property "Reference" "C?"
+		(property "Reference" "C6"
 			(at 45.72 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9566,7 +9576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 42.8752 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9608,7 +9618,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "C?")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9648,7 +9658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.9952 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -9708,7 +9718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eac60ca-d731-4e4f-972e-729cbc6f2542")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 35.56 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9730,7 +9740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 39.878 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -9772,7 +9782,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9780,7 +9790,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:PC817")
-		(at 191.77 88.9 0)
+		(at 190.5 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9790,8 +9800,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "468b9d3b-3f43-4654-9a36-8c8f1232d152")
-		(property "Reference" "U?"
-			(at 191.77 80.01 0)
+		(property "Reference" "U5"
+			(at 190.5 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9801,7 +9811,7 @@
 			)
 		)
 		(property "Value" "PC817"
-			(at 191.77 82.55 0)
+			(at 190.5 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9810,8 +9820,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm_LongPads"
-			(at 186.69 93.98 0)
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
+			(at 185.42 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9824,7 +9834,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf"
-			(at 191.77 88.9 0)
+			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +9846,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"
-			(at 191.77 88.9 0)
+			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9861,7 +9871,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9870,7 +9880,7 @@
 	(symbol
 		(lib_id "4xxx:4081")
 		(at 40.64 71.12 180)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9878,7 +9888,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "470cc5b4-0f67-49be-964e-6bb7eda2cee3")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 41.148 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9898,7 +9908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9976,8 +9986,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 2)
+					(reference "U1")
+					(unit 1)
 				)
 			)
 		)
@@ -9994,7 +10004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c48f8f3-5df2-43c6-a6df-4887dd20c229")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 18.415 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10014,7 +10024,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
 			(at 20.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10059,7 +10069,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10177,7 +10187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_2462_2xAA"
 			(at 250.19 150.876 90)
 			(hide yes)
 			(show_name no)
@@ -10259,91 +10269,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 218.44 33.02 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b078f47-3f0b-465d-9cd6-93c94d7357a2")
-		(property "Reference" "R?"
-			(at 215.9 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 215.9 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.218 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 218.44 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7655cd58-d53a-4400-a731-09eb797103c4")
-		)
-		(pin "2"
-			(uuid "a399d6c3-1e87-476d-a51e-bb0bfc4a9da2")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "4xxx:4081")
 		(at 25.4 68.58 180)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10351,7 +10279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c431cf2-1745-4b5f-941e-e31797d88bc5")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 25.654 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10371,7 +10299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10449,8 +10377,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 1)
+					(reference "U1")
+					(unit 2)
 				)
 			)
 		)
@@ -10466,7 +10394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf5009b-8804-4016-9488-1cf2a05bad61")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 26.416 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,7 +10414,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10564,7 +10492,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -10650,7 +10578,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 105.41 0)
+		(at 158.75 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10661,7 +10589,7 @@
 		(fields_autoplaced yes)
 		(uuid "601a0135-df7e-4f79-bc0c-9537e5eddc49")
 		(property "Reference" "#PWR018"
-			(at 115.57 111.76 0)
+			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10672,7 +10600,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 110.49 0)
+			(at 158.75 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10682,7 +10610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 105.41 0)
+			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10693,7 +10621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 105.41 0)
+			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,7 +10632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 105.41 0)
+			(at 158.75 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10760,7 +10688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 66.04 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10976,7 +10904,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 107.95 81.28 0)
+		(at 151.13 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10987,7 +10915,7 @@
 		(fields_autoplaced yes)
 		(uuid "63e71985-19c3-4297-aa81-b3837c9d3bd8")
 		(property "Reference" "SW3"
-			(at 107.95 74.93 0)
+			(at 151.13 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10997,7 +10925,7 @@
 			)
 		)
 		(property "Value" "Sidetone Enable"
-			(at 107.95 77.47 0)
+			(at 151.13 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11006,8 +10934,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.95 81.28 0)
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+			(at 151.13 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +10946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 81.28 0)
+			(at 151.13 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11029,7 +10957,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 107.95 81.28 0)
+			(at 151.13 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11143,7 +11071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fac7c25-96a9-42ac-97d6-645fb8493a22")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 40.64 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11163,7 +11091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11241,7 +11169,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -11405,7 +11333,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 120.65 90.17 0)
+		(at 163.83 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11415,8 +11343,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d5d7227-b357-49e4-ab24-06d7ad359049")
-		(property "Reference" "BZ?"
-			(at 124.46 88.8999 0)
+		(property "Reference" "BZ1"
+			(at 167.64 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11427,7 +11355,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 124.46 91.4399 0)
+			(at 167.64 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11437,8 +11365,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.015 87.63 90)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+			(at 163.195 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +11377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.015 87.63 90)
+			(at 163.195 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11460,7 +11388,7 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
-			(at 120.65 90.17 0)
+			(at 163.83 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11479,7 +11407,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "BZ?")
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
@@ -11653,7 +11581,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e0456c5-9eb5-48f0-a56f-16842c81bc33")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 148.59 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11675,7 +11603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 152.908 35.56 90)
 			(hide yes)
 			(show_name no)
@@ -11717,7 +11645,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11802,7 +11730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 97.79 0)
+		(at 180.34 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11812,8 +11740,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "974033cb-d108-43ac-952f-fefcfd2e3ce8")
-		(property "Reference" "R?"
-			(at 179.07 96.5199 0)
+		(property "Reference" "R9"
+			(at 177.8 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11824,7 +11752,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 179.07 99.0599 0)
+			(at 177.8 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11834,8 +11762,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 183.388 97.79 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.118 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +11774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 97.79 0)
+			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11857,7 +11785,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 97.79 0)
+			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11876,7 +11804,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12041,7 +11969,8 @@
 	(symbol
 		(lib_id "4xxx:4071")
 		(at 40.64 82.55 0)
-		(unit 1)
+		(mirror x)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12049,8 +11978,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d7556b3-1f6d-417c-9d9c-5eefb180b9d9")
-		(property "Reference" "U?"
-			(at 40.132 80.772 0)
+		(property "Reference" "U2"
+			(at 40.132 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12060,7 +11989,7 @@
 			)
 		)
 		(property "Value" "4071"
-			(at 40.64 83.82 0)
+			(at 40.64 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12069,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12147,8 +12076,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 1)
+					(reference "U2")
+					(unit 4)
 				)
 			)
 		)
@@ -12242,7 +12171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f651241-b7c7-44bc-903b-4641655bab5d")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 154.432 172.974 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12264,7 +12193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 156.21 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12342,90 +12271,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U2")
 					(unit 5)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 77.47 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a0d1eee4-71bc-4224-a029-415749268efa")
-		(property "Reference" "R?"
-			(at 64.008 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 62.992 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.468 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "321fa7fb-4af5-4665-859f-eaedae37bccc")
-		)
-		(pin "2"
-			(uuid "9bc110f1-e033-42f0-9893-0fb7b2f4af2f")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
-					(unit 1)
 				)
 			)
 		)
@@ -12434,7 +12281,7 @@
 		(lib_id "4xxx:4071")
 		(at 146.05 49.53 0)
 		(mirror x)
-		(unit 4)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12442,7 +12289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a14b8c72-fcb6-4a4f-acbd-49468e03aca0")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 146.05 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12462,7 +12309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12540,8 +12387,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 4)
+					(reference "U2")
+					(unit 1)
 				)
 			)
 		)
@@ -12580,7 +12427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 67.818 170.18 90)
 			(hide yes)
 			(show_name no)
@@ -12639,7 +12486,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a321c839-ff72-43a7-88af-8afc4f29522b")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 77.47 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12659,7 +12506,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12704,7 +12551,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12722,7 +12569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a987c1bd-5da0-41e6-981f-8ba66c36313c")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 102.87 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12742,7 +12589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 102.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12820,7 +12667,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -12857,7 +12704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 252.73 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -12911,7 +12758,7 @@
 	(symbol
 		(lib_id "4xxx:4011")
 		(at 161.29 46.99 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12920,7 +12767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a9c006-51e0-47df-8d4a-0d97167da861")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 161.2817 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12940,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 161.29 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13018,8 +12865,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 1)
+					(reference "U4")
+					(unit 2)
 				)
 			)
 		)
@@ -13058,7 +12905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 279.0952 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13140,7 +12987,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -13356,7 +13203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c74e49c5-57cd-4645-bcbf-5781432d7dde")
-		(property "Reference" "RV?"
+		(property "Reference" "RV1"
 			(at 165.1 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13376,7 +13223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 165.1 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13454,7 +13301,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "RV?")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -13462,8 +13309,8 @@
 	)
 	(symbol
 		(lib_id "4xxx:4011")
-		(at 168.91 86.36 0)
-		(unit 3)
+		(at 118.11 86.36 0)
+		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13472,8 +13319,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c752d593-6ea3-4d55-9ce9-d58c172db53f")
-		(property "Reference" "U?"
-			(at 168.9017 95.25 0)
+		(property "Reference" "U4"
+			(at 118.1017 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13483,7 +13330,7 @@
 			)
 		)
 		(property "Value" "4011"
-			(at 168.9017 92.71 0)
+			(at 118.1017 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13492,8 +13339,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 86.36 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13504,7 +13351,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-			(at 168.91 86.36 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13515,7 +13362,7 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
-			(at 168.91 86.36 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13570,8 +13417,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 3)
+					(reference "U4")
+					(unit 4)
 				)
 			)
 		)
@@ -13821,7 +13668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d12c2be6-b897-4c89-8176-10fc76b0053b")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 41.402 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13841,7 +13688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 40.64 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -13919,90 +13766,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
+					(reference "U1")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 100.33 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d1daddd9-61cd-484a-bd44-d318e64307c3")
-		(property "Reference" "R?"
-			(at 57.15 99.0599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 57.15 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 61.468 100.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38f72a57-4134-44e7-84e2-8cdc28b49530")
-		)
-		(pin "2"
-			(uuid "20b88ecd-0c6d-4e25-997c-d3b9edaef31c")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
-					(unit 1)
 				)
 			)
 		)
@@ -14019,7 +13784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5c86dcd-c498-4b3b-b8a9-8bc933d3f054")
-		(property "Reference" "C?"
+		(property "Reference" "C7"
 			(at 62.23 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14041,7 +13806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14083,7 +13848,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "C?")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14091,7 +13856,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 99.06 71.12 0)
+		(at 142.24 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14102,7 +13867,7 @@
 		(fields_autoplaced yes)
 		(uuid "d755e921-2838-42f4-8d51-dec294f326b3")
 		(property "Reference" "#PWR019"
-			(at 99.06 74.93 0)
+			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14113,7 +13878,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 99.06 66.04 0)
+			(at 142.24 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14123,7 +13888,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 71.12 0)
+			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14134,7 +13899,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 71.12 0)
+			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14145,7 +13910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 99.06 71.12 0)
+			(at 142.24 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14179,7 +13944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc0e6d87-09c2-440a-b6a9-3220003bf97e")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 52.07 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14201,7 +13966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 56.388 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -14243,7 +14008,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14252,7 +14017,7 @@
 	(symbol
 		(lib_id "4xxx:4027")
 		(at 218.44 46.99 0)
-		(unit 1)
+		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14261,7 +14026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dea667f5-1e7e-4c91-89d0-ef9288f2b8e6")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 220.5833 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14283,7 +14048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 218.44 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14367,8 +14132,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 1)
+					(reference "U3")
+					(unit 2)
 				)
 			)
 		)
@@ -14385,7 +14150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e51e78c9-6053-4539-a1e1-5f8265ee548b")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 175.26 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14407,7 +14172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 179.578 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -14449,7 +14214,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14534,7 +14299,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack2")
-		(at 213.36 87.63 180)
+		(at 212.09 90.17 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14543,8 +14308,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb88363a-e925-4083-978c-e41ef38f31e7")
-		(property "Reference" "J?"
-			(at 213.995 96.52 0)
+		(property "Reference" "J4"
+			(at 212.725 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14554,7 +14319,7 @@
 			)
 		)
 		(property "Value" "Keyed Output"
-			(at 213.995 93.98 0)
+			(at 212.725 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14563,8 +14328,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 213.36 87.63 0)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3513N_Horizontal"
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14575,7 +14340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 87.63 0)
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14586,7 +14351,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 2 Poles (Mono / TS)"
-			(at 213.36 87.63 0)
+			(at 212.09 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14605,89 +14370,7 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 218.44 63.5 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eba80c8d-52e1-462f-be78-bce2f28bece0")
-		(property "Reference" "R?"
-			(at 215.9 62.2299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 215.9 64.7699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.218 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 218.44 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "82acb73d-eb75-49d9-84f9-7a2066b5700f")
-		)
-		(pin "2"
-			(uuid "efae861c-57ba-4b98-b48d-4824d948079e")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "R?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14772,8 +14455,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 181.61 102.87 0)
+		(lib_id "power:VCC")
+		(at 180.34 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14782,9 +14465,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3a9b824-0c26-4d5d-aac0-2ea9aebcb7b6")
+		(uuid "f3078dab-d28a-48d2-8556-4778b53499da")
 		(property "Reference" "#PWR016"
-			(at 181.61 109.22 0)
+			(at 180.34 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14794,8 +14477,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 181.61 107.95 0)
+		(property "Value" "VCC"
+			(at 180.34 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14805,7 +14488,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 102.87 0)
+			(at 180.34 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14816,7 +14499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 102.87 0)
+			(at 180.34 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14826,8 +14509,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 102.87 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 180.34 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14838,7 +14521,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47ad1947-23af-424d-bcd1-3635b195cc88")
+			(uuid "e43bd332-5d82-46e9-9b68-27d6de4a73de")
 		)
 		(instances
 			(project "keynty_keyer"
@@ -14852,7 +14535,7 @@
 	(symbol
 		(lib_id "4xxx:4011")
 		(at 185.42 46.99 0)
-		(unit 2)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14861,7 +14544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4cc02bf-b99a-4634-b6df-f3c39bb7553f")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 185.4117 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +14564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14959,8 +14642,8 @@
 		(instances
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "U?")
-					(unit 2)
+					(reference "U4")
+					(unit 1)
 				)
 			)
 		)
@@ -14997,7 +14680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
 			(at 259.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15235,7 +14918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.6752 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -15315,7 +14998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 270.51 146.558 90)
 			(hide yes)
 			(show_name no)
