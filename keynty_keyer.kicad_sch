@@ -9737,7 +9737,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 44.45 43.1801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11681,7 +11681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "470"
 			(at 177.8 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13807,7 +13807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 60.96 43.1801 0)
 			(show_name no)
 			(do_not_autoplace no)
