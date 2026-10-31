@@ -8051,7 +8051,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52342"
 			(at 143.51 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8258,7 +8258,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21120"
 			(at 195.58 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8350,7 +8350,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6725"
 			(at 168.91 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8478,7 +8478,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157536"
 			(at 130.81 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8611,7 +8611,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6725"
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8905,7 +8905,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157536"
 			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9637,7 +9637,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 82.55 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9729,7 +9729,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21120"
 			(at 38.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9822,7 +9822,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 113.03 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10009,7 +10009,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C41807"
 			(at 190.5 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -10105,7 +10105,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52342"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10403,7 +10403,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52342"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10529,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52342"
 			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10825,7 +10825,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 66.04 179.07 90)
 			(hide yes)
 			(show_name no)
@@ -11161,7 +11161,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28869"
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12112,7 +12112,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28869"
 			(at 40.64 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12406,7 +12406,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28869"
 			(at 156.21 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12533,7 +12533,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28869"
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12846,7 +12846,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28869"
 			(at 102.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -13066,7 +13066,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6725"
 			(at 161.29 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13195,7 +13195,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 278.13 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -13366,7 +13366,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 102.87 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13662,7 +13662,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6725"
 			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13944,7 +13944,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C52342"
 			(at 40.64 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -14072,7 +14072,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C21120"
 			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -14336,7 +14336,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157536"
 			(at 218.44 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14873,7 +14873,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6725"
 			(at 185.42 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15249,7 +15249,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C28323"
 			(at 92.71 175.26 0)
 			(hide yes)
 			(show_name no)
