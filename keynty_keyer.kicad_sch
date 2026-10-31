@@ -8051,6 +8051,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 143.51 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "7c8e997d-476e-40aa-9ed4-81103247d99f")
 		)
@@ -8247,6 +8258,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 195.58 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87a1578b-28b5-4dc5-8c18-dd1ae3ddb116")
 		)
@@ -8318,6 +8340,17 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
+			(at 168.91 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 168.91 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8445,6 +8478,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 130.81 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "92174600-2214-4ee8-a0c0-b64c44a02e04")
 		)
@@ -8557,6 +8601,17 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
+			(at 234.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 234.95 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -8761,6 +8816,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2691448"
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e4689a24-84f3-465b-838d-ca9d7d2532f3")
 		)
@@ -8829,6 +8895,17 @@
 			)
 		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
+			(at 59.69 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8956,6 +9033,17 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 156.21 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19632264"
 			(at 156.21 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9126,6 +9214,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2691448"
+			(at 77.47 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "05856c3f-f6c2-42c0-9731-907afd8ccc8c")
 		)
@@ -9198,6 +9297,17 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 212.09 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22355739"
 			(at 212.09 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9527,6 +9637,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e2d6d501-1054-4afc-8fce-75bc82a820e0")
 		)
@@ -9552,28 +9673,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39f8de5f-a49c-4c8f-b675-9597fd45b590")
 		(property "Reference" "C6"
-			(at 34.29 45.7201 0)
+			(at 31.496 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 34.29 43.1801 0)
+		(property "Value" "220n"
+			(at 30.226 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -9599,6 +9719,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 38.1 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 38.1 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9691,6 +9822,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 113.03 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0a738139-6a01-4839-aeca-ed60bcee2430")
 		)
@@ -9763,6 +9905,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 41.91 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 41.91 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9856,6 +10009,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 190.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6f0b01c5-dd60-4178-a01c-96eb215f9408")
 		)
@@ -9931,6 +10095,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 40.64 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10047,6 +10222,17 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 20.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22355739"
 			(at 20.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -10217,6 +10403,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 25.4 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "7c8e997d-476e-40aa-9ed4-81103247d9a0")
 		)
@@ -10322,6 +10519,17 @@
 			)
 		)
 		(property "Description" "Quad And 2 inputs"
+			(at 25.4 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 25.4 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10617,6 +10825,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 66.04 179.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9f74c47-46fd-4f95-977a-cc13a8965f16")
 		)
@@ -10852,6 +11071,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 151.13 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6b521316-c8b2-40bd-b3cc-ebe0c40214c3")
 		)
@@ -10921,6 +11151,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 40.64 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 40.64 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11205,6 +11446,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C49246930"
+			(at 163.83 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c607e843-fda4-4a33-84a0-9a117d3ad504")
 		)
@@ -11443,6 +11695,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22775"
+			(at 151.13 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4e8636e5-3118-4ac4-a5df-a8ca19465f68")
 		)
@@ -11592,6 +11855,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 180.34 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23179"
 			(at 180.34 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11838,6 +12112,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 40.64 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "c1cbdb45-1779-493a-8be5-1c51f6e2a7e2")
 		)
@@ -12032,6 +12317,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C2691448"
+			(at 245.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e7f709c3-b2bc-45aa-aead-e8d711c93f19")
 		)
@@ -12100,6 +12396,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 156.21 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 156.21 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -12216,6 +12523,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 146.05 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 146.05 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12344,6 +12662,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C22962"
+			(at 66.04 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c8c9827-7317-4265-81df-a96de67aaabf")
 		)
@@ -12413,6 +12742,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 77.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2691448"
 			(at 77.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12496,6 +12836,17 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
+			(at 102.87 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 102.87 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -12621,6 +12972,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 252.73 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7420a553-768d-4bd3-92ac-8c7cf9ff8a83")
 		)
@@ -12694,6 +13056,17 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
+			(at 161.29 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 161.29 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -12812,6 +13185,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 278.13 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 278.13 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -12972,6 +13356,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 102.87 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 102.87 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -13173,6 +13568,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 165.1 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0767bdb-4886-4543-acd9-95e9c8b57a40")
 		)
@@ -13246,6 +13652,17 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
+			(at 118.11 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -13527,6 +13944,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 40.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "00dc00f4-dcbd-4fb8-84e5-2bbb77591cfa")
 		)
@@ -13588,28 +14016,27 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d5c86dcd-c498-4b3b-b8a9-8bc933d3f054")
 		(property "Reference" "C7"
-			(at 50.8 45.7201 0)
+			(at 48.768 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "C"
-			(at 50.8 43.1801 0)
+		(property "Value" "220n"
+			(at 48.006 46.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
@@ -13635,6 +14062,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 54.61 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13805,6 +14243,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 58.42 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "285d5653-5812-4083-998d-dda531252c97")
 		)
@@ -13877,6 +14326,17 @@
 			)
 		)
 		(property "Description" "Dual JK FlipFlop, set & reset"
+			(at 218.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 218.44 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14001,6 +14461,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22807"
 			(at 177.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14402,6 +14873,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 185.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "69d14e96-64b3-4663-9063-b080f9cfdd67")
 		)
@@ -14508,6 +14990,17 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 259.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
 			(at 259.08 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14756,6 +15249,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 92.71 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a1ab045f-97fe-42d5-b9e7-2a03f0a81f88")
 		)
@@ -14827,6 +15331,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 270.51 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 270.51 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
