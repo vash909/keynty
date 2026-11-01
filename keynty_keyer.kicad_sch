@@ -6055,7 +6055,7 @@
 	)
 	(text "DASH/DOT MEMORY"
 		(exclude_from_sim no)
-		(at 67.31 60.96 0)
+		(at 68.072 63.754 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6095,7 +6095,7 @@
 	)
 	(text "Last Symbol"
 		(exclude_from_sim no)
-		(at 75.692 96.266 0)
+		(at 77.47 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6166,7 +6166,7 @@
 	)
 	(text "Next Symbol"
 		(exclude_from_sim no)
-		(at 34.29 116.332 0)
+		(at 24.384 127.762 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6268,6 +6268,12 @@
 		(uuid "4fd5abe8-c86e-47c6-a90f-78d23a599bef")
 	)
 	(junction
+		(at 48.26 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "578b7750-b55b-43ed-a915-d594d43da07e")
+	)
+	(junction
 		(at 158.75 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6316,10 +6322,22 @@
 		(uuid "9f92869c-3e67-459e-a044-d4c0f1208bd7")
 	)
 	(junction
+		(at 208.28 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cd24a1-39b6-4272-bd77-f71b3da34e14")
+	)
+	(junction
 		(at 195.58 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3642b01-e32b-4dc4-831e-cfec8312e07f")
+	)
+	(junction
+		(at 50.8 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd009643-d55b-4154-a688-a227f763ea56")
 	)
 	(junction
 		(at 48.26 82.55)
@@ -6359,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a22d127-e234-4918-8fc9-41a1dbaeb75e")
+	)
+	(wire
+		(pts
 			(xy 26.67 92.71) (xy 33.02 92.71)
 		)
 		(stroke
@@ -6376,6 +6404,16 @@
 			(type default)
 		)
 		(uuid "0d9cf8b1-0a30-4d6a-a1c3-138e2ca40c2e")
+	)
+	(wire
+		(pts
+			(xy 50.8 80.01) (xy 50.8 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df182c4-ed88-451c-87f4-6056bc58e6a3")
 	)
 	(wire
 		(pts
@@ -6689,7 +6727,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 95.25 33.02)
+			(xy 33.02 125.73) (xy 39.37 125.73)
 		)
 		(stroke
 			(width 0)
@@ -6869,6 +6907,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 97.79) (xy 57.15 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fddd3fb-4db6-49f0-8f25-fb2d04b5271f")
+	)
+	(wire
+		(pts
 			(xy 128.27 46.99) (xy 138.43 46.99)
 		)
 		(stroke
@@ -6899,7 +6947,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 104.14) (xy 48.26 95.25)
+			(xy 48.26 104.14) (xy 48.26 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6939,7 +6987,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 49.53) (xy 210.82 49.53)
+			(xy 205.74 49.53) (xy 208.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6949,7 +6997,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 38.1) (xy 95.25 38.1)
+			(xy 33.02 130.81) (xy 39.37 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6999,16 +7047,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 44.45) (xy 208.28 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ca314b-6c70-4fa5-94c6-b671eff4c92f")
-	)
-	(wire
-		(pts
 			(xy 257.81 86.36) (xy 269.24 86.36)
 		)
 		(stroke
@@ -7026,6 +7064,16 @@
 			(type default)
 		)
 		(uuid "7d0166a0-f67d-456f-bd00-6890e04f3d1f")
+	)
+	(wire
+		(pts
+			(xy 208.28 44.45) (xy 208.28 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1a7e60-5939-40df-93cb-86d170831c3f")
 	)
 	(wire
 		(pts
@@ -7249,6 +7297,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 97.79) (xy 48.26 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61fffd9-6fb4-4d1e-bb0e-0378dca3d0d3")
+	)
+	(wire
+		(pts
 			(xy 158.75 82.55) (xy 158.75 88.9)
 		)
 		(stroke
@@ -7339,7 +7397,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 48.26 82.55)
+			(xy 48.26 82.55) (xy 50.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7436,6 +7494,16 @@
 			(type default)
 		)
 		(uuid "d085dd25-17f0-4540-af30-43d9133e23de")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 210.82 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d375d9a6-8acf-441f-83b2-0c97cac80663")
 	)
 	(wire
 		(pts
@@ -7639,7 +7707,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 35.56) (xy 123.19 35.56)
+			(xy 54.61 128.27) (xy 67.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7677,8 +7745,8 @@
 		)
 		(uuid "22714c3d-5121-4277-8f63-358d275ef027")
 	)
-	(label "DASH"
-		(at 88.9 33.02 0)
+	(label "DASHm"
+		(at 33.02 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7758,7 +7826,7 @@
 		(uuid "554bcabd-c443-40d7-bd4f-6584811e9483")
 	)
 	(label "DASH+DOT"
-		(at 123.19 35.56 180)
+		(at 67.31 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7776,6 +7844,16 @@
 			(justify left bottom)
 		)
 		(uuid "6ef8964f-6925-4822-91ea-c686904cca6d")
+	)
+	(label "DASHm"
+		(at 57.15 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "736acb6d-32bb-4dae-9f52-ab53cec240d8")
 	)
 	(label "DASH"
 		(at 67.31 41.91 0)
@@ -7797,8 +7875,8 @@
 		)
 		(uuid "7aec4b49-1f55-4025-938e-d28b6f7f02a1")
 	)
-	(label "DOT"
-		(at 88.9 38.1 0)
+	(label "DOTm"
+		(at 33.02 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7827,6 +7905,16 @@
 		)
 		(uuid "aa1fc74a-d0e3-4925-bad5-403e83646b31")
 	)
+	(label "DOTm"
+		(at 57.15 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1534dee-cae7-442f-be0f-79435829e14e")
+	)
 	(label "~{DASHES}"
 		(at 250.19 52.07 180)
 		(effects
@@ -7837,7 +7925,7 @@
 		)
 		(uuid "b1d807c8-0f71-4555-ae70-426ea420fc7b")
 	)
-	(label "DASH+DOT"
+	(label "DASH"
 		(at 269.24 91.44 180)
 		(effects
 			(font
@@ -12783,7 +12871,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4071")
-		(at 102.87 35.56 0)
+		(at 46.99 128.27 0)
 		(mirror x)
 		(unit 3)
 		(body_style 1)
@@ -12794,7 +12882,7 @@
 		(dnp no)
 		(uuid "a987c1bd-5da0-41e6-981f-8ba66c36313c")
 		(property "Reference" "U2"
-			(at 102.87 44.45 0)
+			(at 46.99 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12804,7 +12892,7 @@
 			)
 		)
 		(property "Value" "4071"
-			(at 102.87 41.91 0)
+			(at 46.99 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12814,7 +12902,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 102.87 35.56 0)
+			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12825,7 +12913,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms-75bms.pdf"
-			(at 102.87 35.56 0)
+			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12836,7 +12924,7 @@
 			)
 		)
 		(property "Description" "Quad Or 2 inputs"
-			(at 102.87 35.56 0)
+			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12847,7 +12935,7 @@
 			)
 		)
 		(property "LCSC" "C28869"
-			(at 102.87 35.56 0)
+			(at 46.99 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13387,84 +13475,6 @@
 			(project "keynty_keyer"
 				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 208.28 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c532b568-bdc9-48f2-bd78-66e79b56641e")
-		(property "Reference" "#PWR04"
-			(at 208.28 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 208.28 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 208.28 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee002024-b5ae-4f20-bd2d-a3b43333fd01")
-		)
-		(instances
-			(project "keynty_keyer"
-				(path "/431ac31e-71d2-4327-97a9-de415a92d53b"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
